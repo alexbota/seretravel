@@ -15,7 +15,7 @@ function Services() {
             </h1>
             <div className="box-container">
                 <div className="box">
-                    <i className="fas fa-hotel"></i>
+                    <i className="fas fa-utensils"></i>
                     <h3>accomodations</h3>
                     <p>Due to our partnerships with hotels and apartemnts around the world, we have the most affordable
                         stays on the market!</p>

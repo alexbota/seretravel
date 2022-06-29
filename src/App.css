@@ -144,12 +144,8 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container{
-  position: fixed;
-  top:-120%; left: 0;
   z-index: 10000;
-  min-height: 100vh;
   width:100%;
-  background:rgba(0,0,0,.7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +267,7 @@ header .search-bar-container label:hover{
   object-fit: cover;
 }
 
-.home .controls{
+.controls{
   padding:1rem;
   border-radius: 5rem;
   background:rgba(0,0,0,.7);
@@ -279,7 +275,7 @@ header .search-bar-container label:hover{
   top:10rem;
 }
 
-.home .controls .vid-btn{
+.controls .vid-btn{
   height:2rem;
   width:2rem;
   display: inline-block;
@@ -289,7 +285,7 @@ header .search-bar-container label:hover{
   margin:0 .5rem;
 }
 
-.home .controls .vid-btn.active{
+.controls .vid-btn.active{
   background:var(--winered);
 }
 
@@ -605,6 +601,44 @@ header .search-bar-container label:hover{
 
 .footer .credit span{
   color:var(--winered);
+}
+
+.slideshow-container {
+  width: 100vw;
+  height: 80vh;
+}
+
+.slideshow-container h1 {
+  font-size: 46px;
+  color: #fff;
+}
+
+.slideshow-container p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.slideshow-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+  background: rgba(255,255,255,.2)
+}
+
+.slideshow-buttons button {
+  cursor: pointer;
+  padding: 10px 10px
+}
+
+.basic-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 
