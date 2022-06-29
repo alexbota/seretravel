@@ -1,4 +1,5 @@
 import React from "react";
+import luggage from "../assets/images/bag.png"
 
 function Book() {
     return (
@@ -17,7 +18,7 @@ function Book() {
 
                 <div className="image">
                     <img
-                        src="file:///C:/Users/seret/OneDrive/Desktop/Travel%20Website%20Darius/Pictures/bag.img.svg.png"
+                        src={luggage}
                         alt="" />
                 </div>
                 <form action="">
